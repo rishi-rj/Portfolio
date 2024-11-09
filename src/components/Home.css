@@ -1,0 +1,46 @@
+.home-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a2e; /* Dark background */
+    color: #f8f8f8; /* Light text */
+    font-family: 'Arial', sans-serif; /* Font style */
+  }
+  
+  .text-container {
+    text-align: center;
+    max-width: 600px; /* Control width of text container */
+  }
+  
+  .welcome-text {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .name-text {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-button {
+    padding: 10px 20px;
+    background-color: #ffcc00; /* Button color */
+    color: #1a1a2e; /* Text color on button */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-button:hover {
+    background-color: #ffc107; /* Darker on hover */
+  }
+  

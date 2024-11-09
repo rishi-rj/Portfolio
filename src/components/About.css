@@ -1,0 +1,48 @@
+html, body {
+    height: 100%; /* Ensure the body takes the full height */
+    margin: 0; /* Remove default margin */
+    padding: 0;
+  }
+  
+  .about-container {
+    padding: 20px;
+    background-color: #1a1a2e; /* Dark background */
+    color: #f8f8f8; /* Light text */
+    min-height: 100vh; /* Ensure full height */
+    display: flex; /* Use flex to center content */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center content vertically */
+  }
+  
+  .about-title, .skills-title, .projects-title, .education-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .about-description, .education-description {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .skills-card {
+    background-color: #ffcc00; /* Skill item background color */
+    color: #1a1a2e; /* Text color */
+    transition: transform 0.3s; /* Add transition */
+  }
+  
+  .skills-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+  }
+  
+  .projects-title {
+    margin-top: 40px;
+    font-size: 2.5rem;
+  }
+  
+  .card {
+    background-color: #2a2a72; /* Project card background */
+    color: #fff; /* Project card text color */
+  }
+  

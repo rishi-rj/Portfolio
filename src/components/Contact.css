@@ -1,0 +1,41 @@
+.contact-container {
+    padding: 20px;
+    background-color: #1a1a2e; /* Dark background */
+    color: #f8f8f8; /* Light text */
+    min-height: 100vh; /* Full height */
+    display: flex; /* Use flex to center content */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center content vertically */
+  }
+  
+  .contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contact-intro {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .contact-card {
+    background-color: #ffcc00; /* Card background color */
+    color: #1a1a2e; /* Text color */
+  }
+  
+  .contact-link {
+    color: #1a1a2e; /* Change link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .contact-note {
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
